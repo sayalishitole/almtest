@@ -64,6 +64,13 @@
     <version>1.0-beta</version>
 	</dependency>
 	
+		<dependency>
+	        <groupId>org.testng</groupId>
+	        <artifactId>testng</artifactId>
+	        <version>6.14.3</version>
+	        <scope>compile</scope>
+    </dependency>
+	
 	
 	
   </dependencies>
@@ -79,6 +86,20 @@
                 <target>1.8</target>
             </configuration>
         </plugin>
+        <plugin>
+	            <artifactId>maven-compiler-plugin</artifactId>
+	            <version>3.1</version>
+	            <configuration>
+	                <fork>true</fork>
+	                <executable>C:\Program Files\Java\jdk1.8.0_201\bin\javac.exe</executable>
+	            </configuration>
+	        </plugin>
+        
+        
     </plugins>
+    
+    
 </build>
+
+
 </project>
