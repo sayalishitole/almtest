@@ -34,14 +34,14 @@ public class LoginPageTest extends TestBase{
 		validation = new Validation();
 	}
 	
-	@Test(priority=1)
+	@Test(priority=3)
 	public void loginPageTitleTest() {
 		
 		String title = loginPage.validateLoginPageTitle();
 		Assert.assertEquals(title, "Sign in to your account","Title is not matched");
 	}
 	
-	@Test(priority=2)
+	@Test(priority=4)
 	public void LoginTest() throws InterruptedException {
 		
 		Thread.sleep(5000);

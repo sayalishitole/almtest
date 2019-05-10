@@ -41,7 +41,7 @@ public class ValidationTest extends TestBase{
 	}
 	
 	
-	@Test(priority=1)
+	@Test(priority=5)
 	
 	public void ValidateTest() throws InterruptedException
 	{
@@ -52,7 +52,7 @@ public class ValidationTest extends TestBase{
 		Assert.assertEquals(confirmtest, "https://rapidalm-staging.azurewebsites.net/#/spfx/validation/finish");
 	}
 		
-	@Test(priority=2)
+	@Test(priority=6)
 	
 	public void ValidateDeclineTest() throws InterruptedException
 	{
