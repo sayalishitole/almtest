@@ -1,0 +1,9 @@
+com\alm\qa\base\TestBase.class
+com\alm\qa\pages\Validation.class
+com\alm\qa\pages\UploadPackage.class
+com\alm\qa\pages\LoginPage.class
+com\alm\qa\pages\SpfxDeployments.class
+com\alm\qa\pages\AbortValidation.class
+com\alm\qa\pages\HomePage.class
+com\alm\qa\pages\DeclineValidation.class
+com\alm\qa\util\TestUtil.class

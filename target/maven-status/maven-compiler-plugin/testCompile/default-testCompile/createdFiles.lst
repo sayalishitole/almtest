@@ -1,0 +1,4 @@
+com\alm\qa\testcases\HomePageTest.class
+com\alm\qa\testcases\ValidationAbort.class
+com\alm\qa\testcases\ValidationTest.class
+com\alm\qa\testcases\LoginPageTest.class
