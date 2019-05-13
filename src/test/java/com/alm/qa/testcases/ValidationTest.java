@@ -19,7 +19,7 @@ import com.alm.qa.pages.UploadPackage;
 import com.alm.qa.pages.Validation;
 
 public class ValidationTest extends TestBase{
-	String projectPath="D:\\Sayali-updated\\LeapALM\\SPFx\\Test Packages\\helloworld-webpart.sppkg";
+	/*String projectPath="D:\\Sayali-updated\\LeapALM\\SPFx\\Test Packages\\helloworld-webpart.sppkg";
 	LoginPage loginPage;
 	HomePage homePage;//return type for login test
 	Validation validation;
@@ -42,7 +42,7 @@ public class ValidationTest extends TestBase{
 	}
 	
 	
-	/*@Test(priority=5)
+	@Test(priority=5)
 	
 	public void ValidateTest() throws InterruptedException
 	{

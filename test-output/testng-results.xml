@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="42566" started-at="2019-05-12T10:45:09Z" finished-at="2019-05-12T10:45:51Z">
+  <suite name="Default suite" duration-ms="39205" started-at="2019-05-13T13:02:49Z" finished-at="2019-05-13T13:03:28Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="42566" started-at="2019-05-12T10:45:09Z" finished-at="2019-05-12T10:45:51Z">
+    <test name="Default test" duration-ms="39205" started-at="2019-05-13T13:02:49Z" finished-at="2019-05-13T13:03:28Z">
       <class name="com.alm.qa.testcases.HomePageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.alm.qa.testcases.HomePageTest@1bce4f0a]" name="setup" is-config="true" duration-ms="29294" started-at="2019-05-12T10:45:09Z" finished-at="2019-05-12T10:45:38Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.alm.qa.testcases.HomePageTest@1bce4f0a]" name="setup" is-config="true" duration-ms="25977" started-at="2019-05-13T13:02:49Z" finished-at="2019-05-13T13:03:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyHomePageTitleTest()[pri:1, instance:com.alm.qa.testcases.HomePageTest@1bce4f0a]" name="verifyHomePageTitleTest" duration-ms="43" started-at="2019-05-12T10:45:38Z" finished-at="2019-05-12T10:45:38Z">
+        <test-method status="PASS" signature="verifyHomePageTitleTest()[pri:3, instance:com.alm.qa.testcases.HomePageTest@1bce4f0a]" name="verifyHomePageTitleTest" duration-ms="25" started-at="2019-05-13T13:03:15Z" finished-at="2019-05-13T13:03:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHomePageTitleTest -->
-        <test-method status="FAIL" signature="spfxNavTest()[pri:2, instance:com.alm.qa.testcases.HomePageTest@1bce4f0a]" name="spfxNavTest" duration-ms="13173" started-at="2019-05-12T10:45:38Z" finished-at="2019-05-12T10:45:51Z">
+        <test-method status="FAIL" signature="spfxNavTest()[pri:4, instance:com.alm.qa.testcases.HomePageTest@1bce4f0a]" name="spfxNavTest" duration-ms="13156" started-at="2019-05-13T13:03:15Z" finished-at="2019-05-13T13:03:28Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Invalid page title expected [SPFx Package Deployments] but found [com.alm.qa.pages.Validation@238d68ff]]]>

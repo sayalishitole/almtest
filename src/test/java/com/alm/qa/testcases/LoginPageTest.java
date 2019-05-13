@@ -17,7 +17,7 @@ import com.alm.qa.pages.UploadPackage;
 import com.alm.qa.pages.Validation;
 
 public class LoginPageTest extends TestBase{
-	String projectPath="D:\\Sayali-updated\\LeapALM\\SPFx\\Test Packages\\helloworld-webpart.sppkg";
+	/*String projectPath="D:\\Sayali-updated\\LeapALM\\SPFx\\Test Packages\\helloworld-webpart.sppkg";
 	LoginPage loginPage;
 	HomePage homePage;//return type for login test
 	//create the constructor of this class
@@ -35,21 +35,21 @@ public class LoginPageTest extends TestBase{
 		validation = new Validation();
 	}
 	
-	@Test(priority=1)
+	@Test(priority=3)
 	public void loginPageTitleTest() {
 		
 		String title = loginPage.validateLoginPageTitle();
 		Assert.assertEquals(title, "Sign in to your account","Title is not matched");
 	}
 	
-	@Test(priority=2)
+	@Test(priority=4)
 	public void LoginTest() throws InterruptedException {
 		
 		Thread.sleep(5000);
 		homePage = loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
 		//validation.ValidationTest();
 		
-	}
+	}*/
 	
 	
 	/*@AfterMethod

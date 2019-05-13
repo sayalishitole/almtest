@@ -29,14 +29,14 @@ public class HomePageTest extends TestBase {
 		homePage = loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
 	}
 	
-	@Test(priority=3)
+	@Test(priority=1)
 	public void verifyHomePageTitleTest() {
 		String homePageTitle = homePage.verifyHomePageTitle();
 		Assert.assertEquals(homePageTitle, "Rapid ALM - Dashboard");
 		
 	}
 	
-	@Test(priority=4)
+	@Test(priority=2)
 	public void spfxNavTest() throws InterruptedException {
 		Thread.sleep(5000);
 		Validation Validation =homePage.spfxNav();
