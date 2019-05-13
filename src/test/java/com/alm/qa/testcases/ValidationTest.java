@@ -7,6 +7,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import com.alm.qa.base.TestBase;
@@ -30,7 +31,7 @@ public class ValidationTest extends TestBase{
 		super();//call the constructor of base class
 	}
 	
-	@BeforeMethod
+	@BeforeTest
 	public void setup() {
 		initialization();//call this method from base class
 		
@@ -41,7 +42,7 @@ public class ValidationTest extends TestBase{
 	}
 	
 	
-	@Test(priority=5)
+	/*@Test(priority=5)
 	
 	public void ValidateTest() throws InterruptedException
 	{
@@ -61,7 +62,7 @@ public class ValidationTest extends TestBase{
 		Thread.sleep(5000);
 		String confirmtest1 = declinevalidation.ValidationDeclineflow(prop.getProperty("applicationname"), prop.getProperty("projectPath"));
 		Assert.assertEquals(confirmtest1, "https://rapidalm-staging.azurewebsites.net/#/spfx/list");
-	}
+	}*/
 	
 	
 	

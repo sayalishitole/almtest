@@ -7,6 +7,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import com.alm.qa.base.TestBase;
@@ -25,7 +26,7 @@ public class LoginPageTest extends TestBase{
 		super();//call the constructor of base class
 	}
 	
-	@BeforeMethod
+	@BeforeTest
 	public void setup() {
 		initialization();//call this method from base class
 		
@@ -34,7 +35,7 @@ public class LoginPageTest extends TestBase{
 		validation = new Validation();
 	}
 	
-	@Test(priority=3)
+	/*@Test(priority=3)
 	public void loginPageTitleTest() {
 		
 		String title = loginPage.validateLoginPageTitle();
@@ -48,7 +49,7 @@ public class LoginPageTest extends TestBase{
 		homePage = loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
 		//validation.ValidationTest();
 		
-	}
+	}*/
 	
 	
 	/*@AfterMethod

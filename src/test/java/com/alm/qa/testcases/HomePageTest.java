@@ -2,11 +2,13 @@ package com.alm.qa.testcases;
 
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import com.alm.qa.base.TestBase;
 import com.alm.qa.pages.HomePage;
 import com.alm.qa.pages.LoginPage;
+import com.alm.qa.pages.Validation;
 
 public class HomePageTest extends TestBase {
 	
@@ -19,7 +21,7 @@ public class HomePageTest extends TestBase {
 		super();
 	}
 	
-	@BeforeMethod
+	@BeforeTest
 	public void setup() throws InterruptedException {
 		
 		initialization();
@@ -37,8 +39,9 @@ public class HomePageTest extends TestBase {
 	@Test(priority=2)
 	public void spfxNavTest() throws InterruptedException {
 		Thread.sleep(5000);
-		homePage.spfxNav();
-		//Assert.assertTrue(spfxpagetitle.contains("SPFx Package Deployments"), "Invalid page title");
+		Validation Validation =homePage.spfxNav();
+		//Assert.assertTrue(Validation.contains("SPFx Package Deployments"), "Invalid page title");
+		Assert.assertEquals(Validation,"SPFx Package Deployments", "Invalid page title");
 	}
 
 
