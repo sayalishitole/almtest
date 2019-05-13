@@ -35,7 +35,7 @@ public class LoginPageTest extends TestBase{
 		validation = new Validation();
 	}
 	
-	/*@Test(priority=3)
+	@Test(priority=3)
 	public void loginPageTitleTest() {
 		
 		String title = loginPage.validateLoginPageTitle();
@@ -49,7 +49,7 @@ public class LoginPageTest extends TestBase{
 		homePage = loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
 		//validation.ValidationTest();
 		
-	}*/
+	}
 	
 	
 	/*@AfterMethod
