@@ -3,3 +3,4 @@ Added another line to newfile.txt
 Added another line to newfile.txt
 Added another line into newfile.txt
 added 5th line into newfile.txt
+added 6th line
